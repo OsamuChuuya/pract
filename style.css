@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+section{
+    background-color: grey;
+}
+.katalog{
+    width: 1920px;
+    border: 2px solid grey;
+    position: relative;
+}
+.katalog-h1{
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+.container{
+    margin: 0 auto;
+    padding: 0 330px;
+    position: relative;
+}
+.katalog-h1{
+    text-align: center;
+    margin: 120px 0;
+}
+
+.velosiped{
+    width: 100%;
+    height: 300px;
+    background-color: #F57520;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.velosiped h3{
+    width: 335px;
+    height: 56px;
+    transform: translate(80px, 122px);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    text-align: left;
+    
+}
+.velosiped img{
+    width: 875px;
+    height: 300px;
+    overflow: hidden;
+    width: 875px;
+    left: 393px;
+    top: -57px;
+    position:relative;
+
+
+}
+.elemeti5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tradein{
+    width: 400px;
+    height: 458px;
+    background-color: black;
+    border-radius: 10px;
+}
+.tradein:hover{
+    background-color:  #F57520;
+}
+.box1:hover{
+    background-color: #F57520;
+}
+.box2:hover{
+    background-color: #F57520;
+}
+.tradein h3{
+    position: relative;
+    color: white;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    width: 204px;
+    height: 56px;
+    top: 80px;
+    left: 98px;
+
+     
+}
+.tradein img{
+    position: relative;
+    top: 116px;
+}
+.zapstan{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box1{
+    width: 100%;
+    height: 216px;
+    border-radius: 10px;
+    background-color: black;
+}
+.box1 img{
+    width: 200px;
+    height: 200px;
+    transform: translate(190px, -43px);
+}
+.box2 img{
+    width: 200px;
+    height: 200px;
+    top: -37px;
+    left: 240px;
+    position: relative;    
+}
+.box1 h3{
+    position: relative;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    text-align: left;
+    color: white;
+    width: 229px;
+    height: 56px;
+    top: 29px;
+    left: 24px; 
+}
+.box2 h3{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    text-align: left;
+    color: white;
+    width: 278px;
+    height: 49px;
+    top: 29px;
+    left: 29px;
+    position: relative;
+    
+    
+}
+.ekipstan{
+    width: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box2{
+    width: 100%;
+    height: 216px;
+    background-color: black;
+    border-radius: 10px;
+}
+.katalog-content_velosiped img{
+    margin-left: 313px;
+}
+.header{
+    width: 1920px;
+    height: 875px;
+    background-image: url(img/1.png);
+
+}
+.nav{
+    width: 1420px;
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
+.nav img{
+    width: 168px;
+    height: 32px;
+}
+.nav ul{
+    display: flex;
+    gap: 32px;
+    color: white;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: left;
+
+}
+.nav ul li:hover{
+    font-size: 20px;
+    transition: 600ms;
+    color: orangered;
+}
+.header-content_text{
+    margin-top: 80px;
+    width: 679px;
+    height: 454px;
+
+
+}
+.electrvel{
+    width: 679px;
+    height: 227px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+
+}
+.ndelev{
+    width: 645px;
+    height: 179px;
+}
+.text{
+    width: 645px;
+    height: 87px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    color: white;
+}
+.btn{
+    margin-top: 40px;
+    width:180px;
+    height:52px;
+    padding: 16px 80px 16px 80px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: orange;
+
+}
+.trassa h2{
+    margin-top: 157px;
+    margin-bottom: 170px;
+    text-align: center;
+    color: black;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+}
+.otec{
+    width: 1280px;
+    height: 964px;
+    border-radius: 10px;
+    margin-bottom: 120px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.cards:hover{
+    background-color: #F57520;
+}
+.cards{
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    border-radius: 10px;
+    color: white; 
+}
+.cards h4{
+    transform: translate(27px, 24px);
+}
+.cards p{
+    transform: translate(27px, 50px);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 315px;
+    height: 87px;
+}
+.cards img{
+    width: 400px;
+}
+.section2{
+    width: 1920px;
+    height: 636px;
+    margin: 0 auto;
+    background-color: #F57520;
+    background-image: url(img/image\ 86.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+.section2 h2{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    width: 620px;
+    height: 98px;
+    color: white;
+transform: translate(320px, 52px);    
+}
+.form{
+    width: 610px;
+    height: 354px;
+    border-radius: 10px;
+    transform: translate(314px, 92px);
+
+}
+
+.in{
+    display: flex;
+    gap: 16px;
+}
+.put{
+    display: flex;
+    gap: 16px;
+
+}
+.in input{
+    width:302px;
+    height:46px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px; 
+}
+.put input{
+    width:302px;
+    height:46px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.soob{
+    width: 608px;
+    height: 154px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 10px; 
+    margin-bottom: 16px;
+}
+.zadat{
+    width:608px;
+    height:52px;
+    padding: 16px 80px 16px 80px;
+    gap: 10px;
+    border-radius: 10px;
+    padding-left: 249px;
+}
+.iframe{
+    margin-top: 150px;
+    width: 1920px;
+    height: 500px;
+}
+.footer{
+    width: 1920px;
+    height: 370px;
+    background-color:#101010;
+    top: 465px;
+    position: relative;
+    margin: 0 auto ;
+}
+.footer img{
+transform: translate(318px, 102px);
+
+}
+.div{
+    transform: translate(760px, 92px);
+    width: 840px;
+    height: 198px;
+    gap: 91px;
+    display: flex;
+}
+.kata{
+    width: 219px;
+    height: 96px;
+    gap: 32px;
+    color: aliceblue;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+
+}
+.kata h3{
+    margin-bottom: 32px;
+}
+.kata p{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+}
+
+
